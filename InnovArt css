@@ -1,0 +1,36 @@
+html, body {
+  width: 100%;
+  background-color: black;
+  margin: auto;
+}
+
+video {
+  width: 65%;
+  padding-left: 215px;
+  background-size: auto;
+}
+
+h1 {
+  width: auto;
+  margin: auto;
+  position: sticky;
+  color: white;
+  text-align: left;
+  top: 45%;
+  padding-left: 38%;
+  font-size: 69px;
+  font-family:"Times New Roman",Times, serif;
+  font-weight: lighter;
+}
+
+h2 {
+  width: auto;
+  margin: auto;
+  position: sticky;
+  color: white;
+  text-align: left;
+  top: 46%;
+  padding-left: 52%;
+  font-size: 60px;
+  font-family:"Impact", sans-serif;
+}
