@@ -1,0 +1,15 @@
+# Projet
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Pro.css"/>
+    <title></title>
+  </head>
+  <body>
+    <h1>Innov'</h1><h2>Art</h2>
+<video autoplay loop muted>
+  <source src="/home/sambou/projet1/vmotion2.mp4" type="video/mp4">
+</video>
+  </body>
+</html>
