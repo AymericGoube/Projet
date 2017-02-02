@@ -1,36 +1,111 @@
-html, body {
-  width: 100%;
+body{
   background-color: black;
-  margin: auto;
+  font-family: "Times New Roman", Georgia, Serif;
+  font-size: 2.2em;
+  width: 100%;
+
 }
 
-video {
-  width: 65%;
-  padding-left: 215px;
-  background-size: auto;
-}
-
-h1 {
-  width: auto;
-  margin: auto;
-  position: sticky;
-  color: white;
-  text-align: left;
-  top: 45%;
-  padding-left: 38%;
-  font-size: 69px;
-  font-family:"Times New Roman",Times, serif;
-  font-weight: lighter;
-}
-
-h2 {
-  width: auto;
-  margin: auto;
-  position: sticky;
-  color: white;
-  text-align: left;
-  top: 46%;
-  padding-left: 52%;
-  font-size: 60px;
+p {
   font-family:"Impact", sans-serif;
+  text-align: center;
+  color: white;
+}
+.navbar{
+  border-width: 0px;
+  background-color: black;
+  padding-top: 10px;
+}
+.navbar-brand .fa{
+  color: white;
+  font-size: 2.2em;
+  padding-left: 40px;
+}
+.navbar-default .navbar-nav{
+  padding-right: 5%;
+}
+.navbar-default .navbar-nav li{
+  margin-left: 5px;
+}
+.navbar-default .navbar-nav > li > a{
+  color: white;
+  letter-spacing: 0.11111111em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a:hover{
+  transition: 0.2s ease-in-out;
+}
+.dropdown-menu{
+  background-color: black;
+  opacity: 0.4;
+}
+
+.dropdown-menu li a{
+  font-size: 1.4em;
+  color: white;
+  opacity: 1;
+}
+.videomillieu{
+  text-align: center;
+  padding-top: 0;
+  margin-top: 0;
+  z-index: 0;
+}
+video {
+  width: 75%;
+
+}
+#yo {
+  z-index: 1;
+  position: absolute;
+  padding-left: 39%;
+  padding-top: 17%;
+  text-align: center;
+  font-size: 69px;
+  font-family: "Times New Roman",Times, serif;
+  font-weight: lighter;
+  color: white;
+  margin: auto;
+}
+
+.impact {
+  color: white;
+  font-size: 69px;
+  font-family:"Impact", sans-serif;
+}
+
+img {
+  width: 20%;
+}
+
+.logos{
+  text-align: center;
+  padding-right: 60px;
+}
+footer{
+  padding-top: 0;
+  color: white;
+}
+.dropdown-toggle{
+  opacity: 0.8;
+}
+.footertitre{
+  text-align: center;
+}
+footer ul{
+  padding-top: 5%;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+footer ul li a{
+  color: #E4E1E3;
+  font-family: "Open Sans",Arial,sans-serif;
+  font-size: 11px;
+  padding-left: 25px;
+
 }
